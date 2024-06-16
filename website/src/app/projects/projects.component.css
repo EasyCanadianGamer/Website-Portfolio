@@ -1,0 +1,23 @@
+#cs-tab{
+    border-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+#myTab{
+    padding-top: 40px;
+}
+#cc-tab{
+    border-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+
+}
+
+#myTab{
+    border-color: rgba(240, 248, 255, 0);
+}
+
+
+
+
+.nav-tabs > li.active > button{
+    color: red;
+}
