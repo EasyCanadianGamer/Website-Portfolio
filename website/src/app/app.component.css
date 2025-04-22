@@ -28,8 +28,41 @@
     margin: 10px;
 }
 
-.video{
+/* .video{
     background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXJhZWlkNXJpMTJoa2lwa25uZWtocGpjZHFuN3U4ZXdpeGphaGZpdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Pt9cmfZNAsBvSPxzNr/giphy.gif');
     background-size: cover;
     height: 1000px;
-}
+}  */
+.hero {
+    /* background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXJhZWlkNXJpMTJoa2lwa25uZWtocGpjZHFuN3U4ZXdpeGphaGZpdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Pt9cmfZNAsBvSPxzNr/giphy.gif'); */
+    background-image: url('../assets/videos/particles.mp4');
+    background-size: cover;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .video {
+    background: transparent;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video video {
+    width: auto;
+    height: 900px;
+    background: transparent;
+    object-fit: contain;
+  }
+  
+/* .video{
+    background-image: url('../assets/videos/intro.gif   ');
+    background-size: cover;
+    height: 1000px;
+} */

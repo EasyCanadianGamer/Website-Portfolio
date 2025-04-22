@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactsComponent } from './contacts/contacts.component';
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
